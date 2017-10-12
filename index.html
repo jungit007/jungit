@@ -20,7 +20,11 @@
 			var dots = getimgData("jungit007");
 			var pause = false;
 			//initAnimate();
-			myInitAnimate = setTimeout(initAnimate,5000);
+			myInitAnimate = setTimeout(function(){
+			        var dots = getimgData("jungit007");
+			        var pause = false;
+				initAnimate();
+			},5000);
 			function initAnimate(){
 				dots.forEach(function(){
 					this.x = Math.random()*canvas.width;
