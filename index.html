@@ -19,7 +19,8 @@
 			//var dots = getimgData(document.getElementById('name').value);
 			var dots = getimgData("jungit007");
 			var pause = false;
-			initAnimate();
+			//initAnimate();
+			myInitAnimate = setInterval(initAnimate,5000);
 			function initAnimate(){
 				dots.forEach(function(){
 					this.x = Math.random()*canvas.width;
