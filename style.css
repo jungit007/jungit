@@ -1,0 +1,68 @@
+/*
+	  2017.10.11
+		@影乐
+	https://www.ipz.me
+*/
+
+
+.tools_div{
+	width: 100%;	
+}
+
+.tools_header{
+	width: 90%;
+	margin:0 auto;
+}
+
+.header_left{
+	height: 80px;
+	width:76%;
+	float: left;
+}
+
+.header_right{
+	height: 80px;
+	width: auto;
+	float: right;
+	margin-top: 30px;
+	margin-right: 5px;
+
+
+
+}
+
+#video_iframe{
+	height:500px;
+	width: 99%;
+	border:2px solid #ccc;
+	margin:-20px auto;
+	box-shadow: 1px 1px 5px #AAAAAA;
+	border-radius: 10px;
+	background:url(images/bj.jpg) no-repeat 0px -150px;
+}
+
+.Play{
+	box-shadow: 1px 1px 3px #ccc;
+	border-radius: 10px;
+	margin: 5px;
+	font-size: 16px;
+	font-family: 'Mircosoft Yahei';
+
+}
+
+.footer{
+	width: 98%;
+	height: 100%;
+	background-color: #F7F7F7;
+	margin-top: 50px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 1px 1px 10px #DFF4F3;
+	color: #52524E;
+}
+
+.footer a:link{
+	color: #222831;
+	text-decoration: none;
+}
+
